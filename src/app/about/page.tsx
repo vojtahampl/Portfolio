@@ -87,8 +87,8 @@ export default function About() {
             </h2>
             <p className="text-lg text-slate-600 mb-8 max-w-3xl">
               {locale === 'en' 
-                ? 'I continuously invest in both architectural breadth and technical depth across architecture, security and integration.'
-                : 'Průběžně investuji do architektonického rozhledu i technické hloubky napříč architekturou, bezpečností a integracemi.'}
+                ? 'I continuously and purposefully invest in my own development – expanding my architectural horizons and technical depth in the areas of architecture, security, and integration.'
+                : 'Průběžně a cíleně investuji do vlastního rozvoje – rozšiřuji architektonický rozhled i technickou hloubku v oblastech architektury, bezpečnosti a integrací'}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {t.about.certifications.map((cert, index) => (
