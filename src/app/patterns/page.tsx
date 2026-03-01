@@ -8,9 +8,9 @@ import { FileCode, Layout, Network, Activity, ArrowRight } from 'lucide-react';
 
 const iconMap: Record<string, any> = {
   'reverse-proxy-identity': Layout,
-  'controlled-legacy-integration': FileCode,
-  'openapi-governance': Network,
-  'monitoring-baseline': Activity,
+  'contract-first-api': FileCode,
+  'network-first-onboarding': Network,
+  'operational-monitoring': Activity,
 };
 
 export default function Patterns() {
