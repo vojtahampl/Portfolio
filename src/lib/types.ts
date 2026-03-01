@@ -107,11 +107,10 @@ export interface Translations {
     summaryParagraphs: string[];
     workItems: string[];
     coreFocusAreas: string[];
-    certifications: {
-      title: string;
-      issuer: string;
-      issued: string;
-    }[];
+    certifications: (
+      | { title: string; issuer: string; issued: string }
+      | { section: string }
+    )[];
     experience: {
       company: string;
       role: string;
