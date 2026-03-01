@@ -47,8 +47,8 @@ export const en: Translations = {
       description: 'Explore anonymised case studies focusing on real-world decisions and impact.',
       items: [
         'Analysis and design of application architecture for digital workspaces',
-        'Controlled integration of legacy systems via a central integration layer',
-        'Consistent identity & authentication architecture',
+        'Controlled outbound integration to third parties via a central integration layer',
+        'Design and management of OpenAPI contracts in a multi-country enterprise environment',
         'Proposal for operational and security monitoring of the digital enterprise environment',
       ],
       cta: 'View All Case Studies',
@@ -276,7 +276,7 @@ export const cs: Translations = {
       description: 'Prozkoumejte anonymizované případové studie zaměřené na reálná rozhodnutí a dopady.',
       items: [
         'Analýza a návrh architektury aplikací pro digitální workspace',
-        'Řízená integrace legacy systémů přes centrální integrační vrstvu',
+        'Řízená outbound integrace ke třetím stranám přes centrální integrační vrstvu',
         'Návrh a správa OpenAPI kontraktů v multi-country enterprise prostředí',
         'Návrh provozního a bezpečnostního monitoringu digitálního enterprise prostředí',
       ],
@@ -516,7 +516,7 @@ export const caseStudiesEn: CaseStudy[] = [
     imageUrl: '/images/case-studies/secure-legacy-soap.png',
   },
   {
-    id: 'open-API-contracts',
+    id: 'open-api-contracts',
     title: 'Design and management of OpenAPI contracts in a multi-country enterprise environment',
     shortDescription: 'Analysis, design, and management of the OpenAPI specification for the central integration layer, coordination of changes with individual countries, and cooperation with development teams.',
     context: 'The project was carried out within an enterprise environment with a central core system used across multiple countries. Communication between systems was implemented via a central integration layer built on OpenAPI contracts.',
@@ -1090,7 +1090,7 @@ export const caseStudiesCs: CaseStudy[] = [
     imageUrl: '/images/case-studies/secure-legacy-soap.png',
   },
   {
-    id: 'Open-API-contracts',
+    id: 'open-api-contracts',
     title: 'Návrh a správa OpenAPI kontraktů v multi-country enterprise prostředí',
     shortDescription: 'Analýza, návrh a správa OpenAPI specifikace centrální integrační vrstvy, koordinace změn s jednotlivými zeměmi a spolupráce s vývojovými týmy.',
     context: 'Projekt probíhal v rámci enterprise prostředí s centrálním core systémem využívaným napříč více zeměmi. Komunikace mezi systémy byla realizována přes centrální integrační vrstvu postavenou na OpenAPI kontraktech.',
@@ -1620,7 +1620,7 @@ export const patternsEn: Pattern[] = [
     what: 'API contracts (OpenAPI/WSDL) are treated as the source of truth, enabling early validation, testing and cross-team alignment.',
     whenToUse: 'When integrating multiple teams, vendors or legacy systems across organisational boundaries.',
     whyItMatters: 'Contract-first delivery reduces integration risk and prevents late-stage architectural changes.',
-    relatedCaseStudies: ['secure-legacy-soap'],
+    relatedCaseStudies: ['secure-legacy-soap', 'open-api-contracts'],
   },
   {
     id: 'network-first-onboarding',
@@ -1655,7 +1655,7 @@ export const patternsCs: Pattern[] = [
     what: 'API kontrakty (OpenAPI/WSDL) jsou “source of truth”, což umožňuje včasnou validaci, testování a sladění napříč týmy.',
     whenToUse: 'Při integraci více týmů, dodavatelů nebo legacy systémů napříč organizačními hranicemi.',
     whyItMatters: 'Contract-first přístup snižuje integrační riziko a omezuje pozdní změny architektury.',
-    relatedCaseStudies: ['secure-legacy-soap'],
+    relatedCaseStudies: ['secure-legacy-soap', 'open-api-contracts'],
   },
   {
     id: 'network-first-onboarding',
