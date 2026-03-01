@@ -104,17 +104,26 @@ export const en: Translations = {
       'Banking & Regulated Environments',
     ],
     certifications: [
-      { title: 'Full-stack developer', issuer: 'robot_dreams', issued: '09/2025' },
-      { title: 'Application Architect', issuer: 'robot_dreams', issued: '09/2025' },
-      { title: 'Ethical hacker', issuer: 'robot_dreams', issued: '04/2025' },
-      { title: 'Penetration tester', issuer: 'robot_dreams', issued: '03/2025' },
+      // Architecture & Security – core identity
       { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: '12/2024' },
-      { title: 'SOA and Integration', issuer: 'Goodea', issued: '11/2024' },
+      { title: 'Application Architect', issuer: 'robot_dreams', issued: '09/2025' },
       { title: 'Standard 10.0 - Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: '06/2024' },
-      { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: '04/2024' },
-      { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: '04/2024' },
+
+      // Offensive security
+      { title: 'Penetration tester', issuer: 'robot_dreams', issued: '03/2025' },
+      { title: 'Ethical hacker', issuer: 'robot_dreams', issued: '04/2025' },
+
+      // Integration & API
+      { title: 'SOA and Integration', issuer: 'Goodea', issued: '11/2024' },
       { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: '03/2024' },
       { title: 'Design REST API', issuer: 'Udemy', issued: '08/2022' },
+
+      // Development
+      { title: 'Full-stack developer', issuer: 'robot_dreams', issued: '09/2025' },
+
+      // Supporting / context
+      { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: '04/2024' },
+      { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: '04/2024' },
     ],
     experience: [
       {
@@ -333,17 +342,26 @@ export const cs: Translations = {
       'Bankovnictví a regulované prostředí',
     ],
     certifications: [
-      { title: 'Full-stack developer', issuer: 'robot_dreams', issued: 'Vydáno 09/2025' },
-      { title: 'Application Architect', issuer: 'robot_dreams', issued: 'Vydáno 09/2025' },
-      { title: 'Ethical hacker', issuer: 'robot_dreams', issued: 'Vydáno 04/2025' },
-      { title: 'Penetration tester', issuer: 'robot_dreams', issued: 'Vydáno 03/2025' },
-      { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: 'Vydáno 12/2024' },
-      { title: 'SOA and Integration', issuer: 'Goodea', issued: 'Vydáno 11/2024' },
-      { title: 'Standard 10.0 - Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: 'Vydáno 06/2024' },
-      { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: 'Vydáno 04/2024' },
-      { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: 'Vydáno 04/2024' },
-      { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: 'Vydáno 03/2024' },
-      { title: 'Design REST API', issuer: 'Udemy', issued: 'Vydáno 08/2022' },
+      // Architecture & Security – core identity
+      { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: 'Issued 12/2024' },
+      { title: 'Application Architect', issuer: 'robot_dreams', issued: 'Issued 09/2025' },
+      { title: 'Standard 10.0 – Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: 'Issued 06/2024' },
+
+      // Offensive security
+      { title: 'Penetration Tester', issuer: 'robot_dreams', issued: 'Issued 03/2025' },
+      { title: 'Ethical Hacker', issuer: 'robot_dreams', issued: 'Issued 04/2025' },
+
+      // Integration & API
+      { title: 'SOA and Integration', issuer: 'Goodea', issued: 'Issued 11/2024' },
+      { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: 'Issued 03/2024' },
+      { title: 'Design REST API', issuer: 'Udemy', issued: 'Issued 08/2022' },
+
+      // Development
+      { title: 'Full-stack Developer', issuer: 'robot_dreams', issued: 'Issued 09/2025' },
+
+      // Supporting / context
+      { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: 'Issued 04/2024' },
+      { title: 'Integrations in Practice', issuer: 'Beanz s.r.o.', issued: 'Issued 04/2024' },
     ],
     experience: [
       {
