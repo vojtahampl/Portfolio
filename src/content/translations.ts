@@ -1,4 +1,4 @@
-import { Translations, CaseStudy, Pattern } from '@/lib/types';
+import { Translations, CaseStudy, Pattern } from '../lib/types';
 
 export const en: Translations = {
   nav: {
@@ -48,7 +48,7 @@ export const en: Translations = {
       items: [
         'Analysis and design of application architecture for digital workspaces',
         'Controlled integration of legacy systems via a central integration layer',
-        'Design and management of OpenAPI contracts in a multi-country enterprise environment',
+        'Consistent identity & authentication architecture',
         'Proposal for operational and security monitoring of the digital enterprise environment',
       ],
       cta: 'View All Case Studies',
@@ -66,6 +66,7 @@ export const en: Translations = {
       keyDecisions: 'Key decisions',
       outcome: 'Outcome',
       tech: 'Technologies & Standards',
+      diagram: 'Diagram',
       diagramPlaceholder: 'Diagram placeholder (redacted / coming soon)',
     },
   },
@@ -98,23 +99,23 @@ export const en: Translations = {
     coreFocusAreas: [
       'Solution & Integration Architecture',
       'Application & Identity Security',
-      'API Design & Standards (OpenAPI, REST, SOAP, GraphAPI)',
+      'API Design & Standards (OpenAPI, REST, SOAP)',
       'Network & Communication Analysis',
       'Banking & Regulated Environments',
     ],
     certifications: [
-        { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: '12/2024' },
-        { title: 'Application Architect', issuer: 'robot_dreams', issued: '09/2025' },
-        { title: 'SOA and Integration', issuer: 'Goodea', issued: '11/2024' },
-        { title: 'Standard 10.0 - Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: '06/2024' },
-        { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: '04/2024' },
-        { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: '03/2024' },
-        { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: '04/2024' },
-        { title: 'Design REST API', issuer: 'Udemy', issued: '08/2022' },
-        { title: 'Penetration tester', issuer: 'robot_dreams', issued: '03/2025' },
-        { title: 'Ethical hacker', issuer: 'robot_dreams', issued: '04/2025' },
-        { title: 'Full-stack developer', issuer: 'robot_dreams', issued: '09/2025' },
-      ],
+      { title: 'Full-stack developer', issuer: 'robot_dreams', issued: '09/2025' },
+      { title: 'Application Architect', issuer: 'robot_dreams', issued: '09/2025' },
+      { title: 'Ethical hacker', issuer: 'robot_dreams', issued: '04/2025' },
+      { title: 'Penetration tester', issuer: 'robot_dreams', issued: '03/2025' },
+      { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: '12/2024' },
+      { title: 'SOA and Integration', issuer: 'Goodea', issued: '11/2024' },
+      { title: 'Standard 10.0 - Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: '06/2024' },
+      { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: '04/2024' },
+      { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: '04/2024' },
+      { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: '03/2024' },
+      { title: 'Design REST API', issuer: 'Udemy', issued: '08/2022' },
+    ],
     experience: [
       {
         company: 'ČSOB',
@@ -153,6 +154,7 @@ export const en: Translations = {
           'Collaboration across IT and business',
           'Contribution to scalable and secure enterprise designs',
         ],
+        note: 'Parallel engagement focused on requirements and integration work in an enterprise environment.',
       },
       {
         company: 'ZENTITY a.s.',
@@ -293,6 +295,7 @@ export const cs: Translations = {
       keyDecisions: 'Klíčová rozhodnutí',
       outcome: 'Výsledek',
       tech: 'Technologie a standardy',
+      diagram: 'Diagram',
       diagramPlaceholder: 'Místo pro diagram (redigováno / připravuje se)',
     },
   },
@@ -325,23 +328,23 @@ export const cs: Translations = {
     coreFocusAreas: [
       'Solution a integrační architektura',
       'Aplikační bezpečnost a identita',
-      'Návrh API a standardy (OpenAPI, REST, SOAP, GraphAPI)',
+      'Návrh API a standardy (OpenAPI, REST, SOAP)',
       'Síťová a komunikační analýza',
       'Bankovnictví a regulované prostředí',
     ],
     certifications: [
-        { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: '12/2024' },
-        { title: 'Application Architect', issuer: 'robot_dreams', issued: '09/2025' },
-        { title: 'SOA and Integration', issuer: 'Goodea', issued: '11/2024' },
-        { title: 'Standard 10.0 - Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: '06/2024' },
-        { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: '04/2024' },
-        { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: '03/2024' },
-        { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: '04/2024' },
-        { title: 'Design REST API', issuer: 'Udemy', issued: '08/2022' },
-        { title: 'Penetration tester', issuer: 'robot_dreams', issued: '03/2025' },
-        { title: 'Ethical hacker', issuer: 'robot_dreams', issued: '04/2025' },
-        { title: 'Full-stack developer', issuer: 'robot_dreams', issued: '09/2025' },
-      ],
+      { title: 'Full-stack developer', issuer: 'robot_dreams', issued: 'Vydáno 09/2025' },
+      { title: 'Application Architect', issuer: 'robot_dreams', issued: 'Vydáno 09/2025' },
+      { title: 'Ethical hacker', issuer: 'robot_dreams', issued: 'Vydáno 04/2025' },
+      { title: 'Penetration tester', issuer: 'robot_dreams', issued: 'Vydáno 03/2025' },
+      { title: 'Cybersecurity Architect', issuer: 'robot_dreams', issued: 'Vydáno 12/2024' },
+      { title: 'SOA and Integration', issuer: 'Goodea', issued: 'Vydáno 11/2024' },
+      { title: 'Standard 10.0 - Level 1 Enterprise Architect Course (TOGAF)', issuer: 'Udemy', issued: 'Vydáno 06/2024' },
+      { title: 'Integrace v praxi', issuer: 'Beanz s.r.o.', issued: 'Vydáno 04/2024' },
+      { title: 'Business Analysis Fundamentals', issuer: 'Udemy', issued: 'Vydáno 04/2024' },
+      { title: 'REST API Design', issuer: 'DataScript s.r.o.', issued: 'Vydáno 03/2024' },
+      { title: 'Design REST API', issuer: 'Udemy', issued: 'Vydáno 08/2022' },
+    ],
     experience: [
       {
         company: 'ČSOB',
@@ -380,6 +383,7 @@ export const cs: Translations = {
           'Spolupráce napříč IT a businessem',
           'Příspěvek k návrhu škálovatelných a bezpečných enterprise řešení',
         ],
+        note: 'Paralelní angažmá zaměřené na požadavky a integrace v enterprise prostředí.',
       },
       {
         company: 'ZENTITY a.s.',
@@ -479,25 +483,27 @@ export const caseStudiesEn: CaseStudy[] = [
       'Compliance with enterprise security and network standards',
     ],
     tech: ['REST', 'SOAP', 'OpenAPI', 'OIDC', 'TLS', 'Kerberos', 'Enterprise Security Baseline', 'Active Directory', 'LDAP'],
+    imageUrl: '/images/case-studies/digital-workspace-migration.png',
+    imageCaption: 'This diagram shows a layered HLD view of user identity trust, network routing/proxy restrictions, and the SSO entry point. The right flow illustrates a typical access path from an on-site network and the locations where key controls are applied. Real-world implementations are significantly more complex and vary depending on the specific environment, identity model (on-prem/cloud), and baseline requirements for network, authentication/authorization, and access point controls.',
   },
   {
     id: 'secure-legacy-soap',
-    title: 'Controlled integration of legacy systems via a central integration layer',
+    title: 'Controlled outbound integration to third parties via a central integration layer',
     shortDescription: 'The case study is based on an extensive integration project whose goal was to securely and consistently expose legacy systems to third parties through a central integration layer. The main focus was on analyzing existing services, managing integration logic, and validating API communication.',
-    context: 'The organization operated multiple legacy systems that provided data for services for both internal and external consumers. Direct third-party connections to these systems were not sustainable in the long term from the perspective of security, auditability, and change management. It was therefore decided to implement a central integration layer (gateway), which became the sole controlled entry point for external communication.',
-    problem: 'The integration interface across legacy systems was inconsistent and lacked a consistent approach. There was insufficient control over data structures and API contracts, which complicated their long-term sustainability. There was no central mechanism for validating requests or managing integration logic, which, combined with direct third-party integrations, increased the risk of errors and security incidents.',
+    context: 'The organisation operated multiple internal legacy systems that needed to exchange data with external third parties. Direct outbound connectivity from individual systems was difficult to govern, audit and evolve, so a central integration layer became the controlled point for outbound communication.',
+    problem: 'Outbound integrations to third parties were inconsistent across internal systems. Security and transport requirements (e.g., mutual TLS and policy checks) varied by consumer, request transformations were duplicated, and there was no single place to validate requests and enforce contracts—leading to higher operational risk and poor auditability.',
     constraints: [
       'Dependence on existing legacy systems',
       'Limited possibilities for changes in backend applications',
       'Regulatory and security requirements for communication with third parties',
       'Need to maintain operational continuity during integration',
     ],
-    role: 'Responsibility for analyzing integration scenarios, mapping service data structures, and designing how they would be exposed through the integration layer. The role also involved working with Camunda processes, which were used to validate API requests and manage integration logic when communicating with third parties.',
-    solution: 'A central integration layer was designed and gradually expanded, unifying the exposure of legacy system services and separating the integration logic from backend applications. This layer enabled central validation of data and API requests while creating a controlled and auditable point for third-party integration. Process logic and validation rules were implemented using Camunda workflow, which resulted in transparent management of integration scenarios and significantly improved auditability of the entire integration solution.',
+    role: 'Responsible for analysing outbound integration scenarios, mapping internal data structures to partner contracts, and designing a controlled integration flow through the central integration layer. I also collaborated on workflow-based validation and decision logic (Camunda) to standardise request checks, transformations and error handling.',
+    solution: 'A central outbound integration pattern was designed where internal systems call the integration layer using an internal contract, the gateway enforces security and transport controls, and validation/orchestration logic is executed via workflow before communicating with the third party. Requests are transformed/enriched to the partner contract and responses are mapped back consistently to internal consumers, improving governance and auditability. The integration layer also standardised correlation IDs, audit logs and consistent error mapping so every outbound call is traceable end‑to‑end and incidents can be triaged quickly.',
     keyDecisions: [
-      'Consistent and controlled integration model for third parties',
-      'Harmonization of WS-Security and transport layer security approaches',
-      'Definition of contract-first WSDL structure and validation rules',
+      'Use a central integration layer as the single controlled outbound point to third parties',
+      'Standardise security and transport controls (e.g., mTLS) at the gateway layer',
+      'Implement validation and integration decision logic via workflow (Camunda) to keep rules auditable and maintainable',
     ],
     outcomeKpis: [
       'Better interoperability between legacy and modern systems',
@@ -507,6 +513,7 @@ export const caseStudiesEn: CaseStudy[] = [
       'Possibility of further expansion without interfering with core legacy applications',
     ],
     tech: ['SOAP', 'WSDL', 'WS-Security', 'TLS', 'API Gateway', 'Camunda', 'Integration Analysis and Architecture Review', 'Integration testing'],
+    imageUrl: '/images/case-studies/secure-legacy-soap.png',
   },
   {
     id: 'open-API-contracts',
@@ -534,6 +541,427 @@ export const caseStudiesEn: CaseStudy[] = [
       'Easier adoption of a central integration layer by individual countries',
     ],
     tech: ['OpenAPI', 'REST API', 'Git', 'Confluence', 'Integration Architecture'],
+    openApiSpec: `openapi: 3.0.3
+info:
+  title: Customer Profile API
+  version: 1.3.0
+  description: >
+    Single-endpoint contract-first API example for a multi-country platform.
+    Core schema is common and stable; country-specific attributes are optional and explicit.
+    Address validation and extensions are country-aware while keeping one unified contract.
+
+servers:
+  - url: https://api.example.com
+
+paths:
+  /v1/customers/{customerId}:
+    get:
+      operationId: getCustomerProfile
+      summary: Get customer profile (core + optional country specifics dependent of country implementation and business/technical requirements)
+      parameters:
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/Country'
+        - $ref: '#/components/parameters/TraceId'
+      responses:
+        '200':
+          description: OK
+          headers:
+            X-Trace-Id:
+              schema: { type: string }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerProfile'
+              examples:
+                cz-example:
+                  summary: CZ variant
+                  value:
+                    customerId: "c_8f2c1a3b"
+                    country: "CZ"
+                    identity:
+                      nationalIdMasked: "******1234"
+                      assuranceLevel: "HIGH"
+                    contacts:
+                      - type: "EMAIL"
+                        value: "user@example.com"
+                        verified: true
+                    addresses:
+                      - kind: "RESIDENTIAL"
+                        country: "CZ"
+                        line1: "Example street 1"
+                        city: "Prague"
+                        postalCode: "11000"
+                        locality:
+                          district: "Praha 1"
+                        geo:
+                          lat: 50.087
+                          lon: 14.421
+                    extension:
+                      type: "CZ"
+                      cz:
+                        taxResidency: "CZ"
+                        bankSegment: "RETAIL"
+
+                sk-example:
+                  summary: SK variant
+                  value:
+                    customerId: "c_91a2b3c4"
+                    country: "SK"
+                    identity:
+                      nationalIdMasked: "******9876"
+                      assuranceLevel: "SUBSTANTIAL"
+                    contacts:
+                      - type: "PHONE"
+                        value: "+421900000000"
+                        verified: false
+                    addresses:
+                      - kind: "RESIDENTIAL"
+                        country: "SK"
+                        line1: "Hlavná 12"
+                        city: "Košice"
+                        postalCode: "040 01"
+                        locality:
+                          municipalityCode: "599981"
+                    extension:
+                      type: "SK"
+                      sk:
+                        taxResidency: "SK"
+                        pepFlag: false
+
+                at-example:
+                  summary: AT variant
+                  value:
+                    customerId: "c_a1b2c3d4"
+                    country: "AT"
+                    identity:
+                      nationalIdMasked: "******4321"
+                      assuranceLevel: "HIGH"
+                      eidasLevel: "HIGH"
+                    contacts:
+                      - type: "PHONE"
+                        value: "+421900000000"
+                        verified: true
+                      - type: "EMAIL"
+                        value: "userAT@example.com"
+                        verified: true
+                    addresses:
+                      - kind: "POSTAL"
+                        country: "AT"
+                        line1: "Karlsplatz 1"
+                        city: "Wien"
+                        postalCode: "1010"
+                        locality:
+                          regionCode: "AT-09"
+                    extension:
+                      type: "AT"
+                      at:
+                        regionCode: "AT-09"
+        '400': {$ref: '#/components/responses/BadRequest'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '422': {$ref: '#/components/responses/UnprocessableEntity'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+        '500': {$ref: '#/components/responses/InternalError'}
+
+components:
+  parameters:
+    CustomerId:
+      name: customerId
+      in: path
+      required: true
+      schema:
+        type: string
+      description: Stable customer identifier.
+      examples:
+        cz-customer:
+          summary: CZ test customer
+          value: c_8f2c1a3b
+        sk-customer:
+          summary: SK test customer
+          value: c_91a2b3c4
+        at-customer:
+          summary: AT test customer
+          value: c_a1b2c3d4
+    Country:
+      name: CountryId
+      schema:
+        type: string
+        enum: [CZ, SK, AT]
+    TraceId:
+      name: X-Trace-Id
+      in: header
+      required: false
+      schema:
+        type: string
+        maxLength: 64
+      description: Optional correlation id from caller; echoed back in response.
+
+  responses:
+    BadRequest:
+      description: Invalid request (syntax/headers/parameters).
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    NotFound:
+      description: Resource not found.
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    UnprocessableEntity:
+      description: Validation failed (business/contract rules).
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    TooManyRequests:
+      description: Rate limit exceeded.
+      headers:
+        Retry-After:
+          schema: { type: integer, minimum: 1 }
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    InternalError:
+      description: Unexpected error.
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+  schemas:
+    CustomerProfile:
+      type: object
+      required: [customerId, country, identity]
+      additionalProperties: false
+      properties:
+        customerId:
+          type: string
+        country:
+          type: string
+          enum: [CZ, SK, AT]
+        identity:
+          $ref: '#/components/schemas/IdentityCore'
+        contacts:
+          type: array
+          maxItems: 10
+          items:
+            $ref: '#/components/schemas/Contact'
+        addresses:
+          type: array
+          maxItems: 5
+          items:
+            $ref: '#/components/schemas/Address'
+        extension:
+          $ref: '#/components/schemas/CountryExtension'
+
+    IdentityCore:
+      type: object
+      required: [assuranceLevel]
+      additionalProperties: false
+      properties:
+        nationalIdMasked:
+          type: string
+          description: Masked identifier, never raw.
+          maxLength: 32
+        assuranceLevel:
+          type: string
+          enum: [LOW, SUBSTANTIAL, HIGH]
+        eidasLevel:
+          type: string
+          enum: [LOW, SUBSTANTIAL, HIGH]
+          nullable: true
+          description: Optional mapping when available.
+
+    Contact:
+      type: object
+      required: [type, value, verified]
+      additionalProperties: false
+      properties:
+        type:
+          type: string
+          enum: [EMAIL, PHONE]
+        value:
+          type: string
+          minLength: 5
+          maxLength: 254
+        verified:
+          type: boolean
+
+    # Multi-country address:
+    # - common core fields shared by all
+    # - country-aware validation via oneOf (postalCode rules differ)
+    # - optional per-country "locality" & "geo" blocks (non-common => optional)
+    Address:
+      type: object
+      required: [kind, country, line1, city, postalCode]
+      additionalProperties: false
+      properties:
+        kind:
+          type: string
+          enum: [RESIDENTIAL, POSTAL]
+        country:
+          type: string
+          enum: [CZ, SK, AT]
+        line1:
+          type: string
+          minLength: 1
+          maxLength: 120
+        line2:
+          type: string
+          maxLength: 120
+          nullable: true
+          description: Optional address line (not always used across countries).
+        city:
+          type: string
+          minLength: 1
+          maxLength: 80
+        postalCode:
+          type: string
+          description: Country-validated postal code.
+        locality:
+          $ref: '#/components/schemas/AddressLocality'
+        geo:
+          $ref: '#/components/schemas/GeoPoint'
+      oneOf:
+        - $ref: '#/components/schemas/AddressCZ'
+        - $ref: '#/components/schemas/AddressSK'
+        - $ref: '#/components/schemas/AddressAT'
+
+    AddressCZ:
+      allOf:
+        - type: object
+          required: [country, postalCode]
+          properties:
+            country: { enum: [CZ] }
+            postalCode:
+              type: string
+              pattern: '^\d{3}\s?\d{2}$' # 11000 or 110 00
+    AddressSK:
+      allOf:
+        - type: object
+          required: [country, postalCode]
+          properties:
+            country: { enum: [SK] }
+            postalCode:
+              type: string
+              pattern: '^\d{3}\s?\d{2}$' # 04001 or 040 01
+    AddressAT:
+      allOf:
+        - type: object
+          required: [country, postalCode]
+          properties:
+            country: { enum: [AT] }
+            postalCode:
+              type: string
+              pattern: '^\d{4}$' # 1010
+
+    AddressLocality:
+      type: object
+      additionalProperties: false
+      description: Optional country-specific locality metadata.
+      properties:
+        district:
+          type: string
+          maxLength: 80
+          nullable: true
+          description: e.g. CZ district (optional)
+        municipalityCode:
+          type: string
+          maxLength: 24
+          nullable: true
+          description: e.g. SK municipality code (optional)
+        regionCode:
+          type: string
+          pattern: '^[A-Z]{2}-\d{2}$'
+          nullable: true
+          description: e.g. AT region code (optional)
+
+    GeoPoint:
+      type: object
+      additionalProperties: false
+      description: Optional geolocation (if available).
+      properties:
+        lat: { type: number, format: double, nullable: true }
+        lon: { type: number, format: double, nullable: true }
+
+    # Multi-country extension pattern:
+    # Core stays stable, per-country additions are optional + explicit.
+    CountryExtension:
+      type: object
+      required: [type]
+      additionalProperties: false
+      properties:
+        type:
+          type: string
+          enum: [CZ, SK, AT]
+        cz: { $ref: '#/components/schemas/ExtCZ' }
+        sk: { $ref: '#/components/schemas/ExtSK' }
+        at: { $ref: '#/components/schemas/ExtAT' }
+      oneOf:
+        - required: [type, cz]
+          properties: { type: { enum: [CZ] } }
+        - required: [type, sk]
+          properties: { type: { enum: [SK] } }
+        - required: [type, at]
+          properties: { type: { enum: [AT] } }
+
+    ExtCZ:
+      type: object
+      additionalProperties: false
+      required: [taxResidency]
+      properties:
+        taxResidency:
+          type: string
+          enum: [CZ, EU, NON_EU]
+        bankSegment:
+          type: string
+          enum: [RETAIL, SME, CORPORATE]
+          nullable: true
+
+    ExtSK:
+      type: object
+      additionalProperties: false
+      required: [taxResidency]
+      properties:
+        taxResidency:
+          type: string
+          enum: [SK, EU, NON_EU]
+        pepFlag:
+          type: boolean
+          description: Politically exposed person indicator (derived).
+
+    ExtAT:
+      type: object
+      additionalProperties: false
+      properties:
+        regionCode:
+          type: string
+          pattern: '^[A-Z]{2}-\d{2}$'
+          nullable: true
+
+    ErrorResponse:
+      type: object
+      required: [error]
+      additionalProperties: false
+      properties:
+        error:
+          type: object
+          required: [code, message, traceId]
+          additionalProperties: false
+          properties:
+            code: { type: string, example: "VALIDATION_FAILED" }
+            message: { type: string, example: "postalCode does not match required format" }
+            traceId: { type: string, example: "a1b2c3d4e5" }
+            details:
+              type: array
+              items:
+                type: object
+                additionalProperties: false
+                properties:
+                  field: { type: string, example: "addresses[0].postalCode" }
+                  rule: { type: string, example: "pattern" }
+                  value: { type: string, example: "ABC" }`,
   },
   {
     id: 'monitoring-external-saas',
@@ -563,6 +991,43 @@ export const caseStudiesEn: CaseStudy[] = [
       'Higher operational stability of business-critical services',
     ],
     tech: ['SNMP', 'REST', 'SOAP', 'OAuth2', 'Synthetic Monitoring', 'HTTP Probes', 'Proxy', 'Identity Services', 'Observability'],
+    monitoringIntro: 'Below is an example of a requirements monitoring matrix that shows the monitoring options in a regulated business environment—an example at the network, identity, integration, and infrastructure layers. It maps technical signals (availability, performance, capacity, security), severity, and ownership, enabling repeatable incident detection, classification, and clear accountability. Specific examples of monitoring depend on the environment of the company in question.',
+    tables: [
+      {
+        title: 'Operational monitoring',
+        headers: ['Component', 'Layer', 'What is monitored', 'Signal type', 'How', 'Trigger / Threshold', 'Severity', 'Primary owner', 'Notes'],
+        rows: [
+          ['DNS', 'Network', 'Name resolution availability', 'Availability', 'DNS query (A/AAAA)', 'Timeout', 'Critical', 'Network team', 'Core dependency for all services'],
+          ['DNS', 'Network', 'Query latency', 'Performance', 'DNS response time', 'Latency above agreed threshold', 'Major', 'Network team', 'Early signal of network issues'],
+          ['DHCP', 'Network', 'Scope capacity', 'Capacity', 'Lease utilization', 'Capacity above agreed threshold', 'Major', 'Network team', 'Prevents new clients from connecting'],
+          ['F5 Load Balancer', 'Network / L7', 'Availibility/HealthCheck VIP', 'Availability', 'Health check', 'VS down', 'Critical', 'Network team', 'Entry point for applications'],
+          ['F5 Load Balancer', 'Network / L7', 'Pool member health', 'Availability', 'Node/pool status', 'Healthy members < N', 'Major', 'Network team', 'Detects backend degradation'],
+          ['Firewall', 'Network / Security', 'Dropped packets', 'Security / Network', 'Firewall counters', 'Spike over baseline', 'Major', 'SecOps', 'Detects misrouting or attack'],
+          ['Proxy', 'Network', 'Outbound connectivity', 'Availability', 'Synthetic HTTP probe', 'Timeout / 5xx', 'Critical', 'Network team', 'Affects SaaS and external APIs'],
+          ['Active Directory', 'Identity', 'LDAP availability', 'Availability', 'LDAP bind check', 'Bind failure', 'Critical', 'Identity team', 'Authentication dependency'],
+          ['Active Directory', 'Identity', 'Replication health', 'Consistency', 'AD replication status', 'Replication delay', 'Major', 'Identity team', 'Prevents stale identity data'],
+          ['Active Directory', 'Identity', 'Authentication failures', 'Security', 'Auth error rate', 'Spike over baseline', 'Major', 'Identity team', 'Detects misconfig or attack'],
+          ['NTP', 'Infrastructure', 'Time synchronization', 'Availability', 'Time drift check', 'time sync over baseline', 'Major', 'Platform team', 'Critical for auth and logs'],
+          ['Monitoring Agent', 'Observability', 'Agent heartbeat', 'Availability', 'Heartbeat signal', 'heartbeat missing for agreed time', 'Major', 'Platform team', 'Blind spot detection']
+        ]
+      },
+      {
+        title: 'Security monitoring',
+        headers: ['Component', 'Layer', 'Use case', 'What is monitored', 'Signal type', 'How', 'Trigger / Threshold', 'Severity', 'Primary owner', 'Notes'],
+        rows: [
+          ['DNS', 'Network', 'DNS abuse / tunneling', 'Abnormal query patterns', 'Security', 'DNS logs / Sec monitoring tool', 'Spike in TX/long queries', 'High', 'SecOps', 'Early sign of data exfiltration'],
+          ['DNS', 'Network', 'Malware C2 resolution', 'Resolution of known bad domains', 'Security', 'Threat intel feed + DNS logs', 'Match on IOC', 'Critical', 'SecOps', 'Blocks malware communication'],
+          ['Firewall', 'Network / Security', 'Unauthorized access attempt', 'Denied inbound connections', 'Security', 'Firewall logs', 'Repeated denies from same source', 'High', 'SecOps', 'Recon or brute-force attempt'],
+          ['Firewall', 'Network / Security', 'Policy violation', 'Traffic outside allowed zones', 'Security', 'Firewall policy logs', 'Rule hit anomaly', 'High', 'SecOps', 'Detects misconfigured or bypassed flows'],
+          ['Proxy', 'Network / Security', 'Suspicious outbound traffic', 'Requests to risky categories', 'Security', 'Proxy logs + URL categories', 'Access to malware/phishing category', 'Critical', 'SecOps', 'User or service compromise'],
+          ['Active Directory', 'Identity', 'Brute-force authentication', 'Failed logon attempts', 'Security', 'AD security events', 'Failures > baseline', 'Critical', 'Identity / SecOps', 'Credential stuffing or password spray'],
+          ['Active Directory', 'Identity', 'Privilege escalation', 'Group membership changes', 'Security', 'AD audit logs', 'Admin group modification', 'Critical', 'Identity / SecOps', 'High-impact identity event'],
+          ['Active Directory', 'Identity', 'Suspicious Kerberos activity', 'Ticket anomalies', 'Security', 'Kerberos logs', 'Golden/Silver ticket patterns', 'Critical', 'SecOps', 'Advanced attack detection'],
+          ['Load Balancer', 'L7', 'Application abuse', 'Unusual request rate', 'Security', 'L7 metrics', 'Traffic spike per client', 'High', 'AppSec', 'Bot or DoS behavior'],
+          ['NTP', 'Infrastructure', 'Time manipulation attempt', 'Time drift anomalies', 'Security', 'NTP offset monitoring', 'Sudden drift change', 'High', 'Platform team', 'Can impact auth & logging']
+        ]
+      }
+    ]
   },
 ];
 
@@ -592,34 +1057,37 @@ export const caseStudiesCs: CaseStudy[] = [
       'Soulad s enterprise bezpečnostními a síťovými standardy',
     ],
     tech: ['REST', 'SOAP', 'OpenAPI', 'OIDC', 'TLS', 'Kerberos', 'Enterprise Security Baseline', 'Active Directory', 'LDAP'],
+    imageUrl: '/images/case-studies/digital-workspace-migration.png',
+    imageCaption: 'Tento diagram znázorňuje vrstvený HLD pohled na důvěryhodnost uživatelských identit, omezení síťového směrování/proxy a vstupní bod SSO. Pravý tok ilustruje typickou přístupovou cestu z on‑site sítě a místa, kde jsou uplatňovány klíčové kontroly. Reálné implementace jsou výrazně komplexnější a liší se podle konkrétního prostředí, identity modelu (on‑prem/cloud) a baseline požadavků na síť, autentizaci/autorizaci a kontrolu přístupových bodů.',
   },
   {
     id: 'secure-legacy-soap',
-    title: 'Řízená integrace legacy systémů přes centrální integrační vrstvu',
+    title: 'Řízená outbound integrace ke třetím stranám přes centrální integrační vrstvu',
     shortDescription: 'Případová studie vychází z rozsáhlého integračního projektu, jehož cílem bylo bezpečně a konzistentně vystavit legacy systémy směrem ke třetím stranám prostřednictvím centrální integrační vrstvy. Hlavním zaměřením byla analýza existujících služeb, řízení integrační logiky a validace API komunikace.',
-    context: 'Organizace provozovala více legacy systémů, které poskytovaly data pro služby pro interní i externí spotřebitele. Přímé napojování třetích stran na tyto systémy nebylo dlouhodobě udržitelné z pohledu bezpečnosti, auditovatelnosti a řízení změn. Bylo proto rozhodnuto zavést centrální integrační vrstvu (gateway), která se stala jediným řízeným vstupním bodem pro externí komunikaci.',
-    problem: 'Integrační rozhraní napříč legacy systémy byla nejednotná a postrádala konzistentní přístup. Chyběla dostatečná kontrola nad datovými strukturami a API kontrakty, což komplikovalo jejich dlouhodobou udržitelnost. Neexistoval centrální mechanismus pro validaci požadavků ani pro řízení integrační logiky, což v kombinaci s přímými integracemi třetích stran zvyšovalo riziko chyb a bezpečnostních incidentů.',
+    context: 'Organizace provozovala více interních legacy systémů, které potřebovaly komunikovat se systémy třetích stran. Přímé outbound napojování z jednotlivých systémů bylo obtížně dlouhodobě řídit, auditovat a rozvíjet, proto byla zavedena centrální integrační vrstva jako řízený bod pro externí komunikaci.',
+    problem: 'Outbound integrace směrem ke třetím stranám byly nejednotné napříč interními systémy. Požadavky na bezpečnost a transport (např. mTLS a policy kontroly) se lišily, transformační logika se duplikovala a chybělo jednotné místo pro validaci požadavků a vynucení kontraktů. To zvyšovalo provozní i bezpečnostní riziko a snižovalo auditovatelnost.',
     constraints: [
       'Závislost na existujících legacy systémech',
       'Omezené možnosti změn v backendových aplikacích',
       'Regulační a bezpečnostní požadavky na komunikaci se třetími stranami',
       'Nutnost zachovat provozní kontinuitu během integrace',
     ],
-    role: 'Zodpovědnost za analýzu integračních scénářů, mapování datových struktur služeb a návrh způsobu jejich vystavení přes integrační vrstvu. Součástí role byla také práce s Camunda procesy, které sloužily k validaci API požadavků a řízení integrační logiky při komunikaci se třetími stranami.',
-    solution: 'Byla navržena a postupně rozšiřována centrální integrační vrstva, která sjednocovala vystavení služeb legacy systémů a oddělovala integrační logiku od backendových aplikací. Tato vrstva umožnila centrální validaci dat a API požadavků a zároveň vytvořila kontrolovaný a auditovatelný bod pro integraci třetích stran. Procesní logika a validační pravidla byly realizovány pomocí workflow v Camunda, což přineslo transparentní řízení integračních scénářů a výrazně lepší auditovatelnost celého integračního řešení.',
+    role: 'Zodpovědnost za analýzu outbound integračních scénářů, mapování interních datových struktur na partner kontrakty a návrh řízeného toku přes centrální integrační vrstvu. Součástí byla i spolupráce na workflow validaci a integrační logice (Camunda) pro standardizaci kontrol, transformací a chybového zpracování.',
+    solution: 'Byl navržen pattern pro řízenou outbound integraci, kde interní systémy volají integrační vrstvu přes interní kontrakt, gateway vynucuje bezpečnostní a transportní požadavky a před komunikací s partnerem probíhá workflow validace/orchestrace. Požadavky jsou transformovány/enrichovány do partner kontraktu a odpovědi jsou konzistentně mapovány zpět, což zlepšilo governance i auditovatelnost. Integrační vrstva zároveň standardizovala korelační ID, auditní logování a jednotné mapování chyb, aby byla každá outbound komunikace dohledatelná end‑to‑end a incidenty šly rychle triagovat.',
     keyDecisions: [
-      'Konzistentní a řízený integrační model pro třetí strany',
-      'Sladění přístupu k WS-Security a bezpečnosti transportní vrstvy',
-      'Definice contract-first WSDL struktury a validačních pravidel',
+      'Centrální integrační vrstva jako jediný řízený outbound bod ke třetím stranám',
+      'Standardizace bezpečnosti a transportu (např. mTLS) na gateway vrstvě',
+      'Workflow (Camunda) pro validaci a integrační rozhodování kvůli auditovatelnosti a udržitelnosti pravidel',
     ],
     outcomeKpis: [
       'Lepší interoperabilita mezi legacy a moderními systémy',
       'Lepší kontrola nad daty a API kontrakty',
       'Snížení rizik spojených s přímými integracemi legacy systémů',
-      'Vyšší transparentnost a auditovatelnost integračních toků',
-      'Možnost dalšího rozšiřování bez zásahů do core legacy aplikací',
+      'Větší transparentnost a auditovatelnost integračních flow',
+      'Možnost dalšího rozšiřování bez zásahu do core legacy aplikací',
     ],
-    tech: ['SOAP', 'WSDL', 'WS-Security', 'TLS', 'API Gateway', 'Camunda', 'Integrační analýza a architektura', 'Integrační testování'],
+    tech: ['SOAP', 'WSDL', 'WS-Security', 'TLS', 'API Gateway', 'Camunda', 'Integration Analysis and Architecture Review', 'Integration testing'],
+    imageUrl: '/images/case-studies/secure-legacy-soap.png',
   },
   {
     id: 'Open-API-contracts',
@@ -647,6 +1115,427 @@ export const caseStudiesCs: CaseStudy[] = [
       'Snazší adopce centrální integrační vrstvy jednotlivými zeměmi',
     ],
     tech: ['OpenAPI', 'REST API', 'Git', 'Confluence', 'Integration Architecture'],
+    openApiSpec: `openapi: 3.0.3
+info:
+  title: Customer Profile API
+  version: 1.3.0
+  description: >
+    Single-endpoint contract-first API example for a multi-country platform.
+    Core schema is common and stable; country-specific attributes are optional and explicit.
+    Address validation and extensions are country-aware while keeping one unified contract.
+
+servers:
+  - url: https://api.example.com
+
+paths:
+  /v1/customers/{customerId}:
+    get:
+      operationId: getCustomerProfile
+      summary: Get customer profile (core + optional country specifics dependent of country implementation and business/technical requirements)
+      parameters:
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/Country'
+        - $ref: '#/components/parameters/TraceId'
+      responses:
+        '200':
+          description: OK
+          headers:
+            X-Trace-Id:
+              schema: { type: string }
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerProfile'
+              examples:
+                cz-example:
+                  summary: CZ variant
+                  value:
+                    customerId: "c_8f2c1a3b"
+                    country: "CZ"
+                    identity:
+                      nationalIdMasked: "******1234"
+                      assuranceLevel: "HIGH"
+                    contacts:
+                      - type: "EMAIL"
+                        value: "user@example.com"
+                        verified: true
+                    addresses:
+                      - kind: "RESIDENTIAL"
+                        country: "CZ"
+                        line1: "Example street 1"
+                        city: "Prague"
+                        postalCode: "11000"
+                        locality:
+                          district: "Praha 1"
+                        geo:
+                          lat: 50.087
+                          lon: 14.421
+                    extension:
+                      type: "CZ"
+                      cz:
+                        taxResidency: "CZ"
+                        bankSegment: "RETAIL"
+
+                sk-example:
+                  summary: SK variant
+                  value:
+                    customerId: "c_91a2b3c4"
+                    country: "SK"
+                    identity:
+                      nationalIdMasked: "******9876"
+                      assuranceLevel: "SUBSTANTIAL"
+                    contacts:
+                      - type: "PHONE"
+                        value: "+421900000000"
+                        verified: false
+                    addresses:
+                      - kind: "RESIDENTIAL"
+                        country: "SK"
+                        line1: "Hlavná 12"
+                        city: "Košice"
+                        postalCode: "040 01"
+                        locality:
+                          municipalityCode: "599981"
+                    extension:
+                      type: "SK"
+                      sk:
+                        taxResidency: "SK"
+                        pepFlag: false
+
+                at-example:
+                  summary: AT variant
+                  value:
+                    customerId: "c_a1b2c3d4"
+                    country: "AT"
+                    identity:
+                      nationalIdMasked: "******4321"
+                      assuranceLevel: "HIGH"
+                      eidasLevel: "HIGH"
+                    contacts:
+                      - type: "PHONE"
+                        value: "+421900000000"
+                        verified: true
+                      - type: "EMAIL"
+                        value: "userAT@example.com"
+                        verified: true
+                    addresses:
+                      - kind: "POSTAL"
+                        country: "AT"
+                        line1: "Karlsplatz 1"
+                        city: "Wien"
+                        postalCode: "1010"
+                        locality:
+                          regionCode: "AT-09"
+                    extension:
+                      type: "AT"
+                      at:
+                        regionCode: "AT-09"
+        '400': {$ref: '#/components/responses/BadRequest'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '422': {$ref: '#/components/responses/UnprocessableEntity'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+        '500': {$ref: '#/components/responses/InternalError'}
+
+components:
+  parameters:
+    CustomerId:
+      name: customerId
+      in: path
+      required: true
+      schema:
+        type: string
+      description: Stable customer identifier.
+      examples:
+        cz-customer:
+          summary: CZ test customer
+          value: c_8f2c1a3b
+        sk-customer:
+          summary: SK test customer
+          value: c_91a2b3c4
+        at-customer:
+          summary: AT test customer
+          value: c_a1b2c3d4
+    Country:
+      name: CountryId
+      schema:
+        type: string
+        enum: [CZ, SK, AT]
+    TraceId:
+      name: X-Trace-Id
+      in: header
+      required: false
+      schema:
+        type: string
+        maxLength: 64
+      description: Optional correlation id from caller; echoed back in response.
+
+  responses:
+    BadRequest:
+      description: Invalid request (syntax/headers/parameters).
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    NotFound:
+      description: Resource not found.
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    UnprocessableEntity:
+      description: Validation failed (business/contract rules).
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    TooManyRequests:
+      description: Rate limit exceeded.
+      headers:
+        Retry-After:
+          schema: { type: integer, minimum: 1 }
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+    InternalError:
+      description: Unexpected error.
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorResponse' }
+
+  schemas:
+    CustomerProfile:
+      type: object
+      required: [customerId, country, identity]
+      additionalProperties: false
+      properties:
+        customerId:
+          type: string
+        country:
+          type: string
+          enum: [CZ, SK, AT]
+        identity:
+          $ref: '#/components/schemas/IdentityCore'
+        contacts:
+          type: array
+          maxItems: 10
+          items:
+            $ref: '#/components/schemas/Contact'
+        addresses:
+          type: array
+          maxItems: 5
+          items:
+            $ref: '#/components/schemas/Address'
+        extension:
+          $ref: '#/components/schemas/CountryExtension'
+
+    IdentityCore:
+      type: object
+      required: [assuranceLevel]
+      additionalProperties: false
+      properties:
+        nationalIdMasked:
+          type: string
+          description: Masked identifier, never raw.
+          maxLength: 32
+        assuranceLevel:
+          type: string
+          enum: [LOW, SUBSTANTIAL, HIGH]
+        eidasLevel:
+          type: string
+          enum: [LOW, SUBSTANTIAL, HIGH]
+          nullable: true
+          description: Optional mapping when available.
+
+    Contact:
+      type: object
+      required: [type, value, verified]
+      additionalProperties: false
+      properties:
+        type:
+          type: string
+          enum: [EMAIL, PHONE]
+        value:
+          type: string
+          minLength: 5
+          maxLength: 254
+        verified:
+          type: boolean
+
+    # Multi-country address:
+    # - common core fields shared by all
+    # - country-aware validation via oneOf (postalCode rules differ)
+    # - optional per-country "locality" & "geo" blocks (non-common => optional)
+    Address:
+      type: object
+      required: [kind, country, line1, city, postalCode]
+      additionalProperties: false
+      properties:
+        kind:
+          type: string
+          enum: [RESIDENTIAL, POSTAL]
+        country:
+          type: string
+          enum: [CZ, SK, AT]
+        line1:
+          type: string
+          minLength: 1
+          maxLength: 120
+        line2:
+          type: string
+          maxLength: 120
+          nullable: true
+          description: Optional address line (not always used across countries).
+        city:
+          type: string
+          minLength: 1
+          maxLength: 80
+        postalCode:
+          type: string
+          description: Country-validated postal code.
+        locality:
+          $ref: '#/components/schemas/AddressLocality'
+        geo:
+          $ref: '#/components/schemas/GeoPoint'
+      oneOf:
+        - $ref: '#/components/schemas/AddressCZ'
+        - $ref: '#/components/schemas/AddressSK'
+        - $ref: '#/components/schemas/AddressAT'
+
+    AddressCZ:
+      allOf:
+        - type: object
+          required: [country, postalCode]
+          properties:
+            country: { enum: [CZ] }
+            postalCode:
+              type: string
+              pattern: '^\d{3}\s?\d{2}$' # 11000 or 110 00
+    AddressSK:
+      allOf:
+        - type: object
+          required: [country, postalCode]
+          properties:
+            country: { enum: [SK] }
+            postalCode:
+              type: string
+              pattern: '^\d{3}\s?\d{2}$' # 04001 or 040 01
+    AddressAT:
+      allOf:
+        - type: object
+          required: [country, postalCode]
+          properties:
+            country: { enum: [AT] }
+            postalCode:
+              type: string
+              pattern: '^\d{4}$' # 1010
+
+    AddressLocality:
+      type: object
+      additionalProperties: false
+      description: Optional country-specific locality metadata.
+      properties:
+        district:
+          type: string
+          maxLength: 80
+          nullable: true
+          description: e.g. CZ district (optional)
+        municipalityCode:
+          type: string
+          maxLength: 24
+          nullable: true
+          description: e.g. SK municipality code (optional)
+        regionCode:
+          type: string
+          pattern: '^[A-Z]{2}-\d{2}$'
+          nullable: true
+          description: e.g. AT region code (optional)
+
+    GeoPoint:
+      type: object
+      additionalProperties: false
+      description: Optional geolocation (if available).
+      properties:
+        lat: { type: number, format: double, nullable: true }
+        lon: { type: number, format: double, nullable: true }
+
+    # Multi-country extension pattern:
+    # Core stays stable, per-country additions are optional + explicit.
+    CountryExtension:
+      type: object
+      required: [type]
+      additionalProperties: false
+      properties:
+        type:
+          type: string
+          enum: [CZ, SK, AT]
+        cz: { $ref: '#/components/schemas/ExtCZ' }
+        sk: { $ref: '#/components/schemas/ExtSK' }
+        at: { $ref: '#/components/schemas/ExtAT' }
+      oneOf:
+        - required: [type, cz]
+          properties: { type: { enum: [CZ] } }
+        - required: [type, sk]
+          properties: { type: { enum: [SK] } }
+        - required: [type, at]
+          properties: { type: { enum: [AT] } }
+
+    ExtCZ:
+      type: object
+      additionalProperties: false
+      required: [taxResidency]
+      properties:
+        taxResidency:
+          type: string
+          enum: [CZ, EU, NON_EU]
+        bankSegment:
+          type: string
+          enum: [RETAIL, SME, CORPORATE]
+          nullable: true
+
+    ExtSK:
+      type: object
+      additionalProperties: false
+      required: [taxResidency]
+      properties:
+        taxResidency:
+          type: string
+          enum: [SK, EU, NON_EU]
+        pepFlag:
+          type: boolean
+          description: Politically exposed person indicator (derived).
+
+    ExtAT:
+      type: object
+      additionalProperties: false
+      properties:
+        regionCode:
+          type: string
+          pattern: '^[A-Z]{2}-\d{2}$'
+          nullable: true
+
+    ErrorResponse:
+      type: object
+      required: [error]
+      additionalProperties: false
+      properties:
+        error:
+          type: object
+          required: [code, message, traceId]
+          additionalProperties: false
+          properties:
+            code: { type: string, example: "VALIDATION_FAILED" }
+            message: { type: string, example: "postalCode does not match required format" }
+            traceId: { type: string, example: "a1b2c3d4e5" }
+            details:
+              type: array
+              items:
+                type: object
+                additionalProperties: false
+                properties:
+                  field: { type: string, example: "addresses[0].postalCode" }
+                  rule: { type: string, example: "pattern" }
+                  value: { type: string, example: "ABC" }`,
   },
   {
     id: 'monitoring-external-saas',
@@ -676,40 +1565,77 @@ export const caseStudiesCs: CaseStudy[] = [
       'Vyšší provozní stabilita business-kritických služeb',
     ],
     tech: ['SNMP', 'REST', 'SOAP', 'OAuth2', 'Synthetic Monitoring', 'HTTP Probes', 'Proxy', 'Identity Services', 'Observability'],
+    monitoringIntro: 'Níže je uveden příklad matice monitoring požadavků, který ukazuje, jaké jsou možnosti monitoringu v regulovaném podnikovém prostředí - příklad na síťové, identitní, integrační a infrastrukturní vrstvě. Mapuje technické signály (dostupnost, výkon, kapacita, bezpečnost), závažnost a vlastnictví, což umožňuje opakovatelnou detekci incidentů, třídění a jasnou odpovědnost. Konkrétní příklady monitoringu závisí na prostředí dané firmy.',
+    tables: [
+      {
+        title: 'Provozní monitoring',
+        headers: ['Komponenta', 'Vrstva', 'Co se monitoruje', 'Typ signálu', 'Jak', 'Prahová hodnota / trigger', 'Závažnost', 'Primární vlastník', 'Poznámka'],
+        rows: [
+          ['DNS', 'Network', 'Dostupnost překladu jmen', 'Dostupnost', 'DNS dotaz (A/AAAA)', 'Timeout', 'Kritická', 'Network', 'Základní závislost všech služeb'],
+          ['DNS', 'Network', 'Latence DNS dotazů', 'Výkon', 'Doba odezvy DNS', 'Latence nad domluveným thresholdem', 'Závažná', 'Network', 'Včasný indikátor síťových problémů'],
+          ['DHCP', 'Network', 'Vytížení rozsahu', 'Kapacita', 'Využití lease', 'Kapacita nad domluveným thresholdem', 'Závažná', 'Network', 'Zabraňuje připojení nových zařízení'],
+          ['F5 Load Balancer', 'Network', 'Dostupnost/HealthCheck VIP', 'Dostupnost', 'Health check', 'VIP nedostupná', 'Kritická', 'Network', 'Vstupní bod pro aplikace'],
+          ['F5 Load Balancer', 'Network', 'HealthCheck poolů', 'Dostupnost', 'Stav nodů/poolu', 'Počet zdravých < N', 'Závažná', 'Network', 'Detekce degradace backendu'],
+          ['Firewall', 'Network/ Security', 'Drop/deny provozu', 'Bezpečnost / Síť', 'Firewall čítače / logy', 'Nárůst nad baseline', 'Závažná', 'SecOps', 'Blokace provozu nebo útok'],
+          ['Proxy', 'Network', 'Odchozí konektivita', 'Dostupnost', 'Syntetický HTTP test', 'Timeout / 5xx', 'Kritická', 'Network', 'Dopad na SaaS a externí API'],
+          ['Active Directory', 'Identita', 'Dostupnost LDAP', 'Dostupnost', 'LDAP bind test', 'Bind selhání', 'Kritická', 'Identity tým', 'Závislost autentizace'],
+          ['Active Directory', 'Identita', 'Replikace AD', 'Konzistence', 'Stav replikace', 'Zpoždění replikace', 'Závažná', 'Identity tým', 'Riziko nekonzistentních dat'],
+          ['Active Directory', 'Identita', 'Chybovost autentizace', 'Bezpečnost', 'Míra auth chyb', 'Nárůst nad baseline', 'Závažná', 'Identity tým', 'Chybná konfigurace nebo útok'],
+          ['NTP', 'Infra', 'Synchronizace času', 'Dostupnost', 'Kontrola odchylky času', 'Odchylka nad baseline', 'Závažná', 'Platformní tým', 'Kritické pro Kerberos a logy'],
+          ['Monitoring agent', 'Network', 'Heartbeat agenta', 'Dostupnost', 'Heartbeat signál', 'Chybí po dobu domluveného thresholdu', 'Závažná', 'Platformní tým', 'Detekce slepých míst monitoringu']
+        ]
+      },
+      {
+        title: 'Bezpečnostní monitoring',
+        headers: ['Komponenta', 'Vrstva', 'Bezpečnostní use case', 'Co se monitoruje', 'Typ signálu', 'Jak', 'Prahová hodnota / trigger', 'Závažnost', 'Primární vlastník', 'Poznámka'],
+        rows: [
+          ['DNS', 'Síť', 'Zneužití DNS / tunelování', 'Neobvyklé DNS dotazy', 'Bezpečnost', 'DNS logy / monitoring nástroj bezpečnosti', 'Nárůst TXT / dlouhé dotazy', 'Vysoká', 'SecOps', 'Možná exfiltrace dat'],
+          ['DNS', 'Síť', 'Komunikace s C2', 'Dotazy na škodlivé domény', 'Bezpečnost', 'Threat intel + DNS logy', 'Shoda s IOC', 'Kritická', 'SecOps', 'Blokace malwaru'],
+          ['Firewall', 'Síť / Bezpečnost', 'Neoprávněný přístup', 'Zamítnuté příchozí spojení', 'Bezpečnost', 'Firewall logy', 'Opakované deny', 'Vysoká', 'SecOps', 'Skenování nebo brute-force'],
+          ['Firewall', 'Síť / Bezpečnost', 'Porušení politiky', 'Provoz mimo povolené zóny', 'Bezpečnost', 'Policy logy', 'Anomálie hitů pravidel', 'Vysoká', 'SecOps', 'Obcházení bezpečnosti'],
+          ['Proxy', 'Síť / Bezpečnost', 'Podezřelý odchozí provoz', 'Přístup na rizikové weby', 'Bezpečnost', 'Proxy logy', 'Malware/phishing kategorie', 'Kritická', 'SecOps', 'Možná kompromitace'],
+          ['Active Directory', 'Identita', 'Brute-force autentizace', 'Neúspěšná přihlášení', 'Bezpečnost', 'AD security logy', 'Nárůst nad baseline', 'Kritická', 'Identity / SecOps', 'Password spray'],
+          ['Active Directory', 'Identita', 'Eskalace oprávnění', 'Změny členství ve skupinách', 'Bezpečnost', 'Auditní logy AD', 'Změna admin skupin', 'Kritická', 'Identity / SecOps', 'Vysoce riziková změna'],
+          ['Active Directory', 'Identita', 'Podezřelé Kerberos chování', 'Anomálie tiketů', 'Bezpečnost', 'Kerberos logy', 'Vzory Golden/Silver ticket', 'Kritická', 'SecOps', 'Pokročilý útok'],
+          ['Load Balancer', 'L7', 'Zneužití aplikace', 'Neobvyklá frekvence požadavků', 'Bezpečnost', 'L7 metriky', 'Spike na klienta', 'Vysoká', 'AppSec', 'Bot / DoS chování'],
+          ['NTP', 'Infrastruktura', 'Manipulace s časem', 'Odchylky času', 'Bezpečnost', 'Monitoring NTP offsetu', 'Náhlá změna driftu', 'Vysoká', 'Platformní tým', 'Dopad na autentizaci']
+        ]
+      }
+    ]
   },
 ];
 
 export const patternsEn: Pattern[] = [
   {
     id: 'reverse-proxy-identity',
-    title: 'Enterprise Identity at the Edge (Reverse Proxy / Access Layer)',
-    what: 'Centralise authentication and authorisation at the access layer (reverse proxy / gateway / access component) so applications enter the environment with consistent controls and minimal per-app variance.',
-    whenToUse: 'When onboarding or migrating many applications into a regulated enterprise workspace where auditability, consistent AuthN/AuthZ, MFA and directory integration matter.',
-    whyItMatters: 'Reduces onboarding friction, prevents inconsistent “one-off” implementations, and makes audits/security reviews repeatable across the portfolio.',
+    title: 'Reverse Proxy–Centric Identity Pattern',
+    what: 'Authentication and authorisation are handled at the reverse proxy/access layer, allowing applications to focus on business logic while enforcing consistent controls.',
+    whenToUse: 'When onboarding applications into an enterprise identity landscape with strict security and audit requirements.',
+    whyItMatters: 'Centralised identity enforcement reduces implementation errors, simplifies audits and improves long-term maintainability.',
     relatedCaseStudies: ['digital-workspace-migration'],
   },
   {
-    id: 'controlled-legacy-integration',
-    title: 'Controlled Exposure of Legacy Systems via a Central Integration Layer',
-    what: 'Introduce a single controlled integration entry point (gateway/integration layer) that owns validation, policy enforcement, and integration logic instead of letting third parties connect directly to legacy systems.',
-    whenToUse: 'When legacy SOAP services must be exposed to external/partner consumers under strict security and change-management constraints.',
-    whyItMatters: 'Improves auditability and long-term maintainability; reduces security risk from direct connections; makes integration behaviour consistent across multiple legacy backends.',
+    id: 'contract-first-api',
+    title: 'Contract-first API delivery',
+    what: 'API contracts (OpenAPI/WSDL) are treated as the source of truth, enabling early validation, testing and cross-team alignment.',
+    whenToUse: 'When integrating multiple teams, vendors or legacy systems across organisational boundaries.',
+    whyItMatters: 'Contract-first delivery reduces integration risk and prevents late-stage architectural changes.',
     relatedCaseStudies: ['secure-legacy-soap'],
   },
   {
-    id: 'openapi-governance',
-    title: 'OpenAPI Contract Governance in Multi-Country Enterprise Environments',
-    what: 'Treat the OpenAPI spec as the “single source of truth” and use governance rules (versioning, review, optional extensions, ownership) to manage cross-country requirements without breaking the central contract.',
-    whenToUse: 'When one central API is consumed/extended by multiple countries/markets with different regulatory and business requirements.',
-    whyItMatters: 'Prevents contract fragmentation, reduces regression risk, and makes ownership and change impact explicit (which speeds up delivery and lowers integration incidents).',
-    relatedCaseStudies: ['open-API-contracts'],
+    id: 'network-first-onboarding',
+    title: 'Network-First Application Onboarding Pattern',
+    what: 'Network constraints, port mappings and routing paths are analysed and documented before application-level changes are implemented.',
+    whenToUse: 'In segmented environments with proxies and strict firewall rules.',
+    whyItMatters: 'Early network validation prevents deployment delays and security exceptions later in the delivery lifecycle.',
+    relatedCaseStudies: ['digital-workspace-migration'],
   },
   {
-    id: 'monitoring-baseline',
-    title: 'Operational + Security Monitoring Baseline for Hybrid Digital Environments',
-    what: 'Design monitoring as a baseline across identity, integration points and platforms: infra signals + API checks + synthetic probes, with a clear separation of operational vs security use cases.',
-    whenToUse: 'When service ownership is split across teams and you need an end-to-end view of availability and security signals (cloud + on-prem, external SaaS connectivity).',
-    whyItMatters: 'Moves detection from “users noticed it” to proactive monitoring; improves incident triage by clarifying failure domains and responsibilities.',
+    id: 'operational-monitoring',
+    title: 'Operational Monitoring Baseline Pattern',
+    what: 'A monitoring baseline combining infrastructure signals, API-based checks and synthetic HTTP probes to cover connectivity, authentication and integration health.',
+    whenToUse: 'For hybrid cloud/on-prem environments relying on external SaaS and critical integrations.',
+    whyItMatters: 'Clear separation of failure domains improves incident response and operational confidence.',
     relatedCaseStudies: ['monitoring-external-saas'],
   },
 ];
@@ -717,34 +1643,34 @@ export const patternsEn: Pattern[] = [
 export const patternsCs: Pattern[] = [
   {
     id: 'reverse-proxy-identity',
-    title: 'Enterprise identita na hraně (reverse proxy / access layer)',
-    what: 'Centralizovat autentizaci a autorizaci na access vrstvě (reverse proxy / gateway), aby onboarding aplikací probíhal konzistentně a bez “one-off” řešení v každé aplikaci.',
-    whenToUse: 'Při onboardingu/migraci většího počtu aplikací do regulovaného enterprise workspace, kde je důležitá auditovatelnost, MFA a konzistentní AuthN/AuthZ.',
-    whyItMatters: 'Snižuje riziko nekonzistentních implementací, zrychluje security review/audit a dělá onboarding opakovatelným napříč portfoliem.',
+    title: 'Identity pattern řízený reverse proxy',
+    what: 'Autentizace a autorizace jsou řešeny na vrstvě reverse proxy/access, zatímco aplikace se soustředí na business logiku při zachování konzistentních kontrol.',
+    whenToUse: 'Při onboardingu aplikací do enterprise identity prostředí s přísnými bezpečnostními a auditními požadavky.',
+    whyItMatters: 'Centralizované vynucení identity snižuje chyby v implementaci, zjednodušuje audit a zlepšuje dlouhodobou udržovatelnost.',
     relatedCaseStudies: ['digital-workspace-migration'],
   },
   {
-    id: 'controlled-legacy-integration',
-    title: 'Řízené vystavení legacy systémů přes centrální integrační vrstvu',
-    what: 'Zavést jediný řízený vstupní bod (gateway/integrační vrstva), který vlastní validaci, bezpečnostní politiky a integrační logiku – místo přímých napojení na legacy.',
-    whenToUse: 'Když potřebuješ bezpečně vystavit legacy SOAP služby externím/partnerským konzumentům a zároveň zachovat audit, kontinuitu provozu a řízení změn.',
-    whyItMatters: 'Zlepší auditovatelnost, sníží bezpečnostní riziko přímých integrací a sjednotí integrační chování napříč backendy.',
+    id: 'contract-first-api',
+    title: 'Contract-first dodávka API',
+    what: 'API kontrakty (OpenAPI/WSDL) jsou “source of truth”, což umožňuje včasnou validaci, testování a sladění napříč týmy.',
+    whenToUse: 'Při integraci více týmů, dodavatelů nebo legacy systémů napříč organizačními hranicemi.',
+    whyItMatters: 'Contract-first přístup snižuje integrační riziko a omezuje pozdní změny architektury.',
     relatedCaseStudies: ['secure-legacy-soap'],
   },
   {
-    id: 'openapi-governance',
-    title: 'Governance OpenAPI kontraktů v multi-country enterprise prostředí',
-    what: 'OpenAPI specifikaci brát jako jediný zdroj pravdy a řídit změny přes pravidla (verzování, code review, ownership, volitelná rozšíření pro lokální potřeby).',
-    whenToUse: 'Když máš centrální API používané a rozšiřované více zeměmi/entitami s odlišnými požadavky.',
-    whyItMatters: 'Brání fragmentaci kontraktu, snižuje riziko regresí a dělá dopady změn i vlastnictví explicitní.',
-    relatedCaseStudies: ['open-API-contracts'],
+    id: 'network-first-onboarding',
+    title: 'Network-first onboarding aplikací',
+    what: 'Síťová omezení, mapování portů a routing jsou analyzovány a zdokumentovány dříve, než dojde k aplikačním změnám.',
+    whenToUse: 'V segmentovaných prostředích s proxy a přísnými firewall pravidly.',
+    whyItMatters: 'Včasná validace sítě předchází zpoždění nasazení a bezpečnostním výjimkám v pozdějších fázích delivery.',
+    relatedCaseStudies: ['digital-workspace-migration'],
   },
   {
-    id: 'monitoring-baseline',
-    title: 'Baseline provozního a bezpečnostního monitoringu pro hybridní digitální prostředí',
-    what: 'Navrhnout monitoring jako baseline napříč identitou, integracemi a platformami: infra signály + API kontroly + syntetické sondy, s jasným oddělením provozních a bezpečnostních use casů.',
-    whenToUse: 'V prostředí cloud + on-prem, s externí SaaS konektivitou a rozděleným ownershipem mezi týmy.',
-    whyItMatters: 'Zrychluje detekci a triage incidentů, zlepšuje end-to-end přehled a ukotví odpovědnosti.',
+    id: 'operational-monitoring',
+    title: 'Baseline provozního monitoringu',
+    what: 'Monitorovací baseline kombinující signály z infrastruktury, API kontroly a syntetické HTTP sondy pro pokrytí konektivity, autentizace a zdraví integrací.',
+    whenToUse: 'V hybridních cloud/on-prem prostředích s externími SaaS a kritickými integracemi.',
+    whyItMatters: 'Jasné oddělení failure domén zlepšuje reakci na incidenty a provozní jistotu.',
     relatedCaseStudies: ['monitoring-external-saas'],
   },
 ];

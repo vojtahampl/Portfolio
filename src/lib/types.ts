@@ -10,6 +10,15 @@ export interface CaseStudy {
   keyDecisions: string[];
   outcomeKpis: string[];
   tech: string[];
+  openApiSpec?: string;
+  monitoringIntro?: string;
+  imageUrl?: string;
+  imageCaption?: string;
+  tables?: {
+    title: string;
+    headers: string[];
+    rows: string[][];
+  }[];
 }
 
 export interface Pattern {
@@ -77,6 +86,7 @@ export interface Translations {
       keyDecisions: string;
       outcome: string;
       tech: string;
+      diagram: string;
       diagramPlaceholder: string;
     };
   };
